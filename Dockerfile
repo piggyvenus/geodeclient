@@ -17,5 +17,5 @@ RUN	yum install -y wget which tar git \
 
 ENV PATH $PATH:$JAVA_HOME/bin
 #ADD geodo rest client
-RUN mkdir /geodeclient
+RUN mkdir -p /geodeclient
 ADD javaclient.tar /geodeclient/
