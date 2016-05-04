@@ -19,3 +19,6 @@ ENV PATH $PATH:$JAVA_HOME/bin
 #ADD geodo rest client
 RUN mkdir -p /geodeclient
 ADD javaclient.tar /geodeclient/
+COPY runRestClient.sh /geodeclient/javaClient/
+WORKDIR /geodeclient/javaClient
+CMD ./runRestClient.sh

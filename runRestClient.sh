@@ -1,0 +1,1 @@
+java -cp ../classes:../libs/geode-dependencies.jar:../libs/spring-core-4.2.4.RELEASE.jar:../libs/commons-logging-1.2.jar:../libs/jackson-databind-2.2.0.jar:./libs/jackson-annotations-2.2.0.jar:../libs/jackson-core-2.2.0.jar com/gemstone/gemfire/restclient/RestClientApp
